@@ -6,27 +6,27 @@
     display: none;
 }
 
-.button_container.solo #jitsi_button {
+.button_container.solo #fbm_button {
     left: 0px;
 }
 
-#jitsi_button {
+#fbm_button {
     min-width: 60px;
     line-height: 24px;
 }
 
-#jitsi_button a {
+#fbm_button a {
     display: block;
     text-decoration: none;
-    background: transparent url('chrome-extension://__MSG_@@extension_id__/jitsi-logo-white-48x48.png') no-repeat;
+    background: transparent url('chrome-extension://__MSG_@@extension_id__/logo-white-48x48.png') no-repeat;
     background-size: 20px 20px;
     background-position: left;
     text-indent: 20px;
     padding-left: 4px;
 }
 
-.jitsi_quick_add_icon {
-    background: transparent url('chrome-extension://__MSG_@@extension_id__/jitsi-logo-grey.svg') no-repeat;
+.fbm_quick_add_icon {
+    background: transparent url('chrome-extension://__MSG_@@extension_id__/logo-grey.svg') no-repeat;
     background-size: contain;
     height: 16px;
     width: 16px;
@@ -34,22 +34,22 @@
     margin-top: 8px;
 }
 
-.jitsi_quick_add_text_size {
+.fbm_quick_add_text_size {
     font-size: 14px;
     line-height: 24px;
 }
 
-.jitsi_edit_page_icon {
-    background: transparent url('chrome-extension://__MSG_@@extension_id__/jitsi-logo-grey.svg') no-repeat;
+.fbm_edit_page_icon {
+    background: transparent url('chrome-extension://__MSG_@@extension_id__/logo-grey.svg') no-repeat;
     background-size: contain;
     height: 20px;
     width: 20px;
-    margin-left: 4px;
+    margin-left: 0px;
     margin-top: 4px;
 }
 
-.jitsi_ms_button {
-    background: transparent url('chrome-extension://__MSG_@@extension_id__/jitsi-logo-blue.svg') no-repeat;
+.fbm_ms_button {
+    background: transparent url('chrome-extension://__MSG_@@extension_id__/logo-blue.svg') no-repeat;
     width: 20px;
     height: 20px;
 }

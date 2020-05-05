@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Jitsi Meetings",
-  "description": "A simple extension that allows you to schedule Jitsi Meetings and stream your desktop into Jitsi conferences.",
-  "version": "0.2.8",
+  "name": "FundingBox Meetings",
+  "description": "Schedule FundingBox Meetings from your calendar.",
+  "version": "0.0.1",
   "minimum_chrome_version": "34",
   "icons": {
-    "16": "jitsi-logo-16x16.png",
-    "48": "jitsi-logo-48x48.png",
-    "128": "jitsi-logo-128x128.png"
+    "16": "logo-16x16.png",
+    "48": "logo-48x48.png",
+    "128": "logo-128x128.png"
   },
   "background": {
         "scripts": [ "background.js" ],
@@ -18,7 +18,7 @@
   ],
   "externally_connectable": {
       "matches": [
-        "*://meet.jit.si/*"
+        "*://meetings.fundingbox.com/*"
       ]
   },
   "content_scripts": [
@@ -31,13 +31,13 @@
     }
   ],
   "web_accessible_resources": [
-    "jitsi-logo-48x48.png",
-    "jitsi-logo-white-48x48.png",
-    "jitsi-logo-blue.svg",
-    "jitsi-logo-grey.svg"
+    "logo-48x48.png",
+    "logo-white-48x48.png",
+    "logo-blue.svg",
+    "logo-grey.svg"
   ],
   "browser_action": {
-    "default_title": "Create Jitsi Meetings",
+    "default_title": "Create a FundingBox Meeting",
     "default_popup": "popup.html"
   }
 }
